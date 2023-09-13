@@ -1,0 +1,7 @@
+/* responsive circles */
+
+.story::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}
