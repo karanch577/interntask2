@@ -10,16 +10,16 @@ function RewardPoints() {
 
         {/* Reward cards start */}
         <div className='flex gap-[2px] justify-center mt-7'>
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={true} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={true} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={true} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={true} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={true} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={true} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={false} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={false} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={false} />
-            <PointsCard height="49px" width="24px" bgColor="FCC460" active={false} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={true} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={true} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={true} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={true} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={true} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={true} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={false} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={false} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={false} />
+            <PointsCard height="49px" width="24px" bgColor="#FCC460" active={false} />
         </div>
         {/* Reward cards end */}
 
