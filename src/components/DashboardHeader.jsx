@@ -1,5 +1,5 @@
 import React from 'react'
-import Badges from './Badges'
+import DashboardBadges from './DashboardBadges'
 import DashboardPoints from './DashboardPoints'
 
 function DashboardHeader() {
@@ -18,7 +18,7 @@ function DashboardHeader() {
             <p className='opacity-30'>Open all</p>
         </div>
         <h2 className='text-[20px] font-[500] text-center mt-1 mb-3'>Opened 38/120 badges</h2>
-        <Badges />
+        <DashboardBadges />
     </div>
   )
 }

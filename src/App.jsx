@@ -10,6 +10,11 @@ import Scan from "./pages/Scan"
 import Statements from "./pages/Statements"
 import Error from './pages/Error'
 import Options from './pages/Options'
+import Help from './pages/Help'
+import FAQs from './pages/FAQs'
+import History from './pages/History'
+import Legal from './pages/Legal'
+import Badges from './pages/Badges'
 
 
 function App() {
@@ -50,6 +55,26 @@ function App() {
         {
           path: "/statements",
           element: <Statements />
+        },
+        {
+          path: "/help",
+          element: <Help />
+        },
+        {
+          path: "/faqs",
+          element: <FAQs />
+        },
+        {
+          path: "/history",
+          element: <History />
+        },
+        {
+          path: "/legal",
+          element: <Legal />
+        },
+        {
+          path: "/badges",
+          element: <Badges />
         },
         {
           path: "/*",

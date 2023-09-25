@@ -3,3 +3,49 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
     -webkit-appearance: none;
 } */
+
+/* input[type="date"]::placeholder,
+.my-input-class::placeholder,
+#my-input-id::placeholder {
+  color: transparent;
+} */
+
+/* input[type="date"]::placeholder {
+    display: none;
+    color: transparent;
+} */
+
+/* input[type="date"]::before{
+    color: #8f5252;
+    content: attr(placeholder) "";
+ }
+ input[type="date"]:focus::before {
+    content: "" !important;
+ } */
+
+
+ /* analytics progress bar */
+
+ .progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#fff , rgb(233, 42, 74) , #F00); 
+      
+    
+      transform: rotate(180deg); /* Start the progress from the top */
+      transform-origin: center;
+      transform: scaleY(-1);
+  }
+
+  /* .progress-bar::before {
+    content: "50";
+    font-size: 12px;
+    font-weight: 500;
+    color: #FF0101;
+  } */
